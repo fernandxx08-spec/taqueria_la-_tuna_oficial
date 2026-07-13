@@ -179,6 +179,6 @@ urlpatterns = [
 # Error 403
     path('acceso_denegado/', acceso_denegado, name='acceso_denegado'),
 
-    path("crear_admin/", views.crear_admin, name="crear_admin"),
+    path("crear_admin/", crear_admin, name="crear_admin"),
 ]
 
