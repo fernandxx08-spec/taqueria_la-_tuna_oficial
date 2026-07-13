@@ -21,6 +21,7 @@ from app.reportes import *
 from app.views.Backup.backup import *
 from app.views.IA.views import chat_view
 from app.views.Error403 import *
+from app.views.crear_admin import *
 
 
 app_name = 'app'
