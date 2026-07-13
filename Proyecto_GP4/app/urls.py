@@ -176,6 +176,8 @@ urlpatterns = [
     path('facturas/historial/', FacturaHistorialView.as_view(), name='historial_facturas'),
     
 # Error 403
-    path('acceso_denegado/', acceso_denegado, name='acceso_denegado')
+    path('acceso_denegado/', acceso_denegado, name='acceso_denegado'),
+
+    path("crear-admin/", views.crear_admin, name="crear_admin"),
 ]
 
